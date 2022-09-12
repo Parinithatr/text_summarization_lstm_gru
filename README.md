@@ -20,12 +20,13 @@ and extract it into the dataset directory (by default, this will be "./dataset/"
 ~~~
 python main.py --mode="train" --vocab_path="./dataset/vocab" --data_dir="./dataset/chunked_train"
 
-### Evaluation
+
+EVALUATION
 ~~~
 python main.py --mode="eval" --vocab_path="./dataset/vocab" --data_dir="./dataset/chunked_val"
 ~~~
 
-### Parameters
+PARAMETERS
 
 Most of the parameters have defaults and can be skipped. Here are the parameters that you can tweak along with their defaults.
 
