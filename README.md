@@ -1,10 +1,6 @@
 # text_summarization_lstm_gru
 Comparing performance of LSTM and GRU for Text Summarization using Pointer Generator Networks
 
-## Prerequisites
-Python 3.7+    
-Tensorflow 2.8+ (Any 2.x should work, but not tested)    
-rouge 1.0.1 (pip install rouge)
 
 ### Dataset
 We use the CNN-DailyMail dataset. The application reads data in the tfrecords format files.
@@ -12,9 +8,6 @@ We use the CNN-DailyMail dataset. The application reads data in the tfrecords fo
 Dataset can be created and processed based on the instructions at https://github.com/abisee/cnn-dailymail
 
 Alternatively, pre-processed dataset can be downloaded from https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
-
-Easiest way yet, download the [dataset zip file](https://drive.google.com/file/d/1C-pLHLlpL4Ca6S0mxhBpY8cCLCGqOb0f/view?usp=sharing)
-and extract it into the dataset directory (by default, this will be "./dataset/")
 
 ### Training
 ~~~
